@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevTrack</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="app-header">
+        <div>
+            <h1>DevTrack</h1>
+            <p>Developer Productivity dashboard</p>
+        </div>
+
+        <div class="header-actions">
+            <button type="button" class="header-button">Notification</button>
+            <button type="button" class="header-button">Profile</button>
+        </div>
+
+    </header>
+    <aside>
+        <nav>
+            <h2>Navigation</h2>
+            <ul>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Taks</a></li>
+                <li><a href="#">Notes</a></li>
+                <li><a href="#">Analytics</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main>
+        <section>
+            <h2>Dashboard</h2>
+            <p>Welcome back! Here's your developer progress for today.</p>
+        </section>
+
+        <section>
+            <h2>Your Statistics</h2>
+
+            <article data-type="course" data-count="8">
+                <h3>Total courses</h3>
+                <p>8</p>
+            </article>
+
+            <article data-type="project" data-count="5">
+                <h3>Active projects</h3>
+                <p>5</p>
+            </article>
+
+            <article data-type="task" data-count="24">
+                <h3>Pending Tasks</h3>
+                <p>24</p>
+            </article>
+
+            <article data-type="study-hours" data-count="42">
+                <h3>Study Hours</h3>
+                <p>42</p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Learning Progress</h2>
+            <p>HTML, CSS & JavaScript</p>
+            <progress value="65" max="100">65%</progress>
+            <p>65% completed</p>
+        </section>
+
+        <section>
+            <h2>Today's Tasks</h2>
+            <ul>
+                <li>
+                    <label for="">
+                        <input type="checkbox">Complete Javascript course
+                    </label>
+                </li>
+
+                <li>
+                    <label for="">
+                        <input type="checkbox" checked>Practice CSS Flexbox
+                    </label>
+                </li>
+
+                <li>
+                    <label for="">
+                        <input type="checkbox">Build Dashboard Project
+                    </label>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Recent Activity</h2>
+            <ul>
+                <li>
+                    Completed Javascript Function-
+                    <time datetime="2026-09-03T17:00">2 Hours ago</time>
+                </li>
+                <li>
+                    Created the DevTrack project-
+                    <time datetime="2026-09-03T15:30">4 Hous ago</time>
+                </li>
+                <li>
+                    Completed CSS Flexbox module-
+                    <time datetime="2026-09-03T18:00">Yesterday</time>
+                </li>
+            </ul>
+        </section>
+
+    </main>
+</body>
+
+</html>
